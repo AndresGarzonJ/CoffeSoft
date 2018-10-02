@@ -1,0 +1,45 @@
+1. Instalar Oracle ..colocar contraseña y guardarla para futuros usos
+2. Ejecutar Get Started With Oracle Database 11g Express Edition 
+3. Ingresar con
+	user:system
+	pass: la del punto 1
+4. Crear la base de datos -> Application Xpress (Aqui tambien se puede ejecutar sql)
+	DataBase Username:nombre_db
+	Application Express Username:system
+	password:pass_punto1
+
+5. Abrir SQL Developer
+6. Crear conexion con Oracle
+	Nombre de conexion: nombre_conexion
+	User:nombre_db
+	pass:pass de workspace
+
+7. Abrir la conexion y crear un usuario (parte inferior en "Otros usuarios"- click derecho -> crear usuario
+	user: nombre_usernew_developer
+	pass: el que quieran
+
+	darle el permiso DBA
+8. Abrir conexion y ejecutar SQL que deseen
+
+
+**es bueno colocar una contraseña para todo
+
+Abrir Netbeans
+1. Tener el proyecto hecho
+2. Crear conexion con bd
+	Oracle Thin
+	Seleccionar el driver ojdbc7.jar
+
+	Oracle Thin SID
+	user: nombre_usernew_developer
+	pass:
+	test connection-exitosa
+
+	Seleccionar BD/Esquema: nombre_db
+
+3. Crear logica/paquete AccesoDatos en el proyecto de netbeans
+	jdbc:oracle:thin:@localhost:1521:XE", "nombre_db", "pass"
+
+4. Crear usuario/administrador db a traves de sql developer
+
+	

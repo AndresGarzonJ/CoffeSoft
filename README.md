@@ -3,4 +3,5 @@ CoffeSoft nace para ayuda a los caficultores que desconocen la rentabilidad del 
 
 Este proyecto fue desarrollado en Java, junto con el compañero Yeison Eduardo Caicedo Garzón como trabajo de práctica para la asignatura de "Informática III - Ingeniería Electrónica y Telecomunicaciones".
 
-![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+![Image text](https://github.com/AndresGarzonJ/CoffeSoft/blob/master/CoffeSoft_1.png)
+![Image text](https://github.com/AndresGarzonJ/CoffeSoft/blob/master/CoffeSoft_2.png)
